@@ -56,7 +56,7 @@ class LoginWebPage extends NiceWebPage
 
 	protected static $m_sLoginFailedMessage = '';
 	
-	public function __construct($sTitle = 'iTop Login')
+	public function __construct($sTitle = 'AT-WFM Login')
 	{
 		parent::__construct($sTitle);
 		$this->SetStyleSheet();
