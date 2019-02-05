@@ -848,9 +848,9 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => 'Elementos de Configuración por Tipo',
 
 'UI:RequestMgmtMenuOverview:Title' => 'Panel de Control para Administración de Requerimientos',
-'UI-RequestManagementOverview-RequestByService' => 'Requerimientos de Usuario por Servicio',
-'UI-RequestManagementOverview-RequestByPriority' => 'Requerimientos de Usuario por Prioridad',
-'UI-RequestManagementOverview-RequestUnassigned' => 'Requerimientos de Usuario Sin Asignar a un Analista',
+'UI-RequestManagementOverview-RequestByService' => 'Requerimientos por Servicio',
+'UI-RequestManagementOverview-RequestByPriority' => 'Requerimientos por Prioridad',
+'UI-RequestManagementOverview-RequestUnassigned' => 'Requerimientos Sin Asignar a un Analista',
 
 'UI:IncidentMgmtMenuOverview:Title' => 'Panel de Control para Administración de Incidentes',
 'UI-IncidentManagementOverview-IncidentByService' => 'Incidentes por Servicio',

@@ -29,7 +29,7 @@ $MySettings = array(
 
 	// app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
 	//	default: ''
-	'app_root_url' => 'https://alltic.co/AT-WFM/',
+	'app_root_url' => 'http://127.0.0.1/AT-WFM/',
 
 	// buttons_position: Position of the forms buttons: bottom | top | both
 	//	default: 'both'
@@ -58,15 +58,15 @@ $MySettings = array(
 
 	'db_collation' => 'utf8_unicode_ci',
 
-	'db_host' => 'localhost',
+	'db_host' => 'alltic.co',
 
 	'db_name' => 'alltic_causel',
 
-	'db_pwd' => 'jam',
+	'db_pwd' => 'itop2019',
 
 	'db_subname' => '',
 
-	'db_user' => 'jam',
+	'db_user' => 'itop',
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'
@@ -94,7 +94,7 @@ $MySettings = array(
 
 	// graphviz_path: Path to the Graphviz "dot" executable for graphing objects lifecycle
 	//	default: '/usr/bin/dot'
-	'graphviz_path' => '/usr/bin/dot',
+	'graphviz_path' => 'C:\\Program Files (x86)\\Graphviz 2.28\\bin\\dot.exe',
 
 	// link_set_attribute_qualifier: Link set from string: attribute qualifier (encloses both the attcode and the value)
 	//	default: '\''
@@ -132,7 +132,8 @@ $MySettings = array(
 
 	// online_help: Hyperlink to the online-help web page
 	//	default: 'http://www.combodo.com/itop-help'
-	'online_help' => 'http://alltic.co'
+	'online_help' => 'http://www.combodo.com/itop-help',
+
 	// php_path: Path to the php executable in CLI mode
 	//	default: 'php'
 	'php_path' => 'php',
@@ -165,7 +166,7 @@ $MySettings = array(
 
 	// timezone: Timezone (reference: http://php.net/manual/en/timezones.php). If empty, it will be left unchanged and MUST be explicitely configured in PHP
 	//	default: 'Europe/Paris'
-	'timezone' => 'America/Bogota',
+	'timezone' => 'Europe/Paris',
 
 	// tracking_level_linked_set_default: Default tracking level if not explicitely set at the attribute level, for AttributeLinkedSet (defaults to NONE in case of a fresh install, LIST otherwise - this to preserve backward compatibility while upgrading from a version older than 2.0.3 - see TRAC #936)
 	//	default: 1
@@ -226,28 +227,28 @@ $MyModules = array(
 		'env-production/core/main.php',
 	),
 	'business' => array (
-		'env-production/authent-external/model.authent-external.php',
-		'env-production/authent-local/model.authent-local.php',
-		'env-production/itop-attachments/model.itop-attachments.php',
-		'env-production/itop-attachments/main.attachments.php',
-		'env-production/itop-backup/main.itop-backup.php',
-		'env-production/itop-config-mgmt/model.itop-config-mgmt.php',
-		'env-production/itop-config-mgmt/main.itop-config-mgmt.php',
-		'env-production/itop-config/main.itop-config.php',
-		'env-production/itop-profiles-itil/model.itop-profiles-itil.php',
-		'env-production/itop-sla-computation/main.itop-sla-computation.php',
-		'env-production/itop-tickets/main.itop-tickets.php',
-		'env-production/itop-tickets/model.itop-tickets.php',
-		'env-production/itop-welcome-itil/main.itop-welcome-itil.php',
-		'env-production/itop-welcome-itil/model.itop-welcome-itil.php',
-		'env-production/combodo-sla-computation/model.combodo-sla-computation.php',
-		'env-production/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php',
-		'env-production/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php',
-		'env-production/itop-service-mgmt-provider/model.itop-service-mgmt-provider.php',
-		'env-production/portal-module/model.portal-module.php',
-		'env-production/requerimiento-module/model.requerimiento-module.php',
-		'env-production/requerimientov2-module/model.requerimientov2-module.php',
-		'env-production/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php',
+		'env-toolkit/authent-external/model.authent-external.php',
+		'env-toolkit/authent-local/model.authent-local.php',
+		'env-toolkit/itop-attachments/model.itop-attachments.php',
+		'env-toolkit/itop-attachments/main.attachments.php',
+		'env-toolkit/itop-backup/main.itop-backup.php',
+		'env-toolkit/itop-config-mgmt/model.itop-config-mgmt.php',
+		'env-toolkit/itop-config-mgmt/main.itop-config-mgmt.php',
+		'env-toolkit/itop-config/main.itop-config.php',
+		'env-toolkit/itop-profiles-itil/model.itop-profiles-itil.php',
+		'env-toolkit/itop-sla-computation/main.itop-sla-computation.php',
+		'env-toolkit/itop-tickets/main.itop-tickets.php',
+		'env-toolkit/itop-tickets/model.itop-tickets.php',
+		'env-toolkit/itop-welcome-itil/main.itop-welcome-itil.php',
+		'env-toolkit/itop-welcome-itil/model.itop-welcome-itil.php',
+		'env-toolkit/combodo-sla-computation/model.combodo-sla-computation.php',
+		'env-toolkit/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php',
+		'env-toolkit/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php',
+		'env-toolkit/itop-service-mgmt-provider/model.itop-service-mgmt-provider.php',
+		'env-toolkit/portal-module/model.portal-module.php',
+		'env-toolkit/requerimiento-module/model.requerimiento-module.php',
+		'env-toolkit/requerimientov2-module/model.requerimientov2-module.php',
+		'env-toolkit/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php',
 	),
 	'webservices' => array (
 		'webservices/webservices.basic.php',
@@ -284,20 +285,20 @@ $MyModules = array(
 		'dictionaries/tr.dictionary.itop.ui.php',
 		'dictionaries/zh.dictionary.itop.core.php',
 		'dictionaries/zh.dictionary.itop.ui.php',
-		'env-production/dictionaries/cs-cz.dict.php',
-		'env-production/dictionaries/da-da.dict.php',
-		'env-production/dictionaries/de-de.dict.php',
-		'env-production/dictionaries/en-us.dict.php',
-		'env-production/dictionaries/es-cr.dict.php',
-		'env-production/dictionaries/fr-fr.dict.php',
-		'env-production/dictionaries/hu-hu.dict.php',
-		'env-production/dictionaries/it-it.dict.php',
-		'env-production/dictionaries/ja-jp.dict.php',
-		'env-production/dictionaries/nl-nl.dict.php',
-		'env-production/dictionaries/pt-br.dict.php',
-		'env-production/dictionaries/ru-ru.dict.php',
-		'env-production/dictionaries/tr-tr.dict.php',
-		'env-production/dictionaries/zh-cn.dict.php',
+		'env-toolkit/dictionaries/cs-cz.dict.php',
+		'env-toolkit/dictionaries/da-da.dict.php',
+		'env-toolkit/dictionaries/de-de.dict.php',
+		'env-toolkit/dictionaries/en-us.dict.php',
+		'env-toolkit/dictionaries/es-cr.dict.php',
+		'env-toolkit/dictionaries/fr-fr.dict.php',
+		'env-toolkit/dictionaries/hu-hu.dict.php',
+		'env-toolkit/dictionaries/it-it.dict.php',
+		'env-toolkit/dictionaries/ja-jp.dict.php',
+		'env-toolkit/dictionaries/nl-nl.dict.php',
+		'env-toolkit/dictionaries/pt-br.dict.php',
+		'env-toolkit/dictionaries/ru-ru.dict.php',
+		'env-toolkit/dictionaries/tr-tr.dict.php',
+		'env-toolkit/dictionaries/zh-cn.dict.php',
 	),
 );
 ?>
