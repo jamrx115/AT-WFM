@@ -52,7 +52,7 @@
 					WHERE id = " . $id_orden;
 					
 		$sql_status = "SELECT *
-						FROM vw_valida_estado
+						FROM vw_ValidaEstado
 						WHERE id= " . $id_orden;
 		
 		$query_portada =  $pdo->prepare($sql_portada);
@@ -448,7 +448,7 @@
 								</div>
 								<div class="col-md-2">
 									<div class="control-group align-center">
-										<label class="control-label"><a onclick="localize(1)">Latitud</a></label>
+										<label class="control-label"><a onClick="localize(1)">Latitud</a></label>
 										<div class="controls">
 											<div class="row">
 												<div class="col-md-6 padding-right-minimum">

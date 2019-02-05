@@ -237,7 +237,7 @@
 					WHERE id = " . $id_orden;
 		
 		$sql_status = "SELECT *
-						FROM vw_valida_estado
+						FROM vw_ValidaEstado
 						WHERE id= " . $id_orden;
 					
 		
@@ -315,9 +315,11 @@
 
 		$result_status = $query_status->fetch(PDO::FETCH_ASSOC);
 
+		
 		if(empty($result_status)) {
 			header("Location: closedot.html");
-		}
+			echo "esta vacio";
+		}else{ echo ".";}
 		
         Database::disconnect();
     }
