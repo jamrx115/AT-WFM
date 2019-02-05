@@ -6,11 +6,11 @@ class Database
 
     private static $dbName = 'alltic_causel' ;
 
-    private static $dbHost = 'localhost' ;
+    private static $dbHost = 'alltic.co' ;
 
-    private static $dbUsername = 'aws_1';
+    private static $dbUsername = 'itop';
 
-    private static $dbUserPassword = 'Alltic2017';
+    private static $dbUserPassword = 'itop2019';
 
      
 

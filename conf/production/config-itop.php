@@ -62,11 +62,11 @@ $MySettings = array(
 
 	'db_name' => 'alltic_causel',
 
-	'db_pwd' => 'jam',
+	'db_pwd' => 'itop2019',
 
 	'db_subname' => '',
 
-	'db_user' => 'jam',
+	'db_user' => 'itop',
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'

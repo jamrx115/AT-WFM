@@ -6,7 +6,7 @@ function conexion(){
 
 
 
- $con = mysql_connect("localhost","aws_1","Alltic2017");
+ $con = mysql_connect("alltic.co","itop","itop2019");
 
 
 
