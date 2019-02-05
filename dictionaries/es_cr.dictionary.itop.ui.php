@@ -317,7 +317,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Menu:WelcomeMenuPage+' => 'Bienvenido a AT-WFM', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Bienvenido a AT-WFM',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop es un completo portal de administración de servicios de TI basado en código abierto.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>AT-WFM es un completo portal de administración de servicios de TI basado en código abierto.</p>
 <p>Incluye:</p>
 <ul><li>Una CMDB completa (Base de datos de Configuraciones) para documentar y manejar el inventario de TI.</li>
 <li>Un módulo de Administración de Incidentes, para llevar el seguimiento y comunicar los eventos que están afectando a los servicios TI.</li>
@@ -328,14 +328,14 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 </ul>
 <p>Todos los módulos pueden ser configurados, paso a paso, individual e independientemente de los otros.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop está orientado a los proveedores de servicios, le permite al personal de TI administrar fácilmente múltiples Organizaciones.
-<p>iTop, provee un conjunto de funciones de procesos de negocio que: </p>
+	'UI:WelcomeMenu:RightBlock' => '<p>AT-WFM está orientado a los proveedores de servicios, le permite al personal de TI administrar fácilmente múltiples Organizaciones.
+<p>AT-WFM, provee un conjunto de funciones de procesos de negocio que: </p>
 <ul><li>Mejora la efectividad de la adminitración de TI</li> 
 <li>Dirige el desempeño de la operaciones de TI</li> 
 <li>Incrementa la satisfacción del cliente y provee a los ejecutivos con detalles del desempeño del negocio.</li>
 </ul>
 </p>
-<p>iTop es completamente abierto para ser integrado con su actual infraestructura de administración de TI.</p>
+<p>AT-WFM es completamente abierto para ser integrado con su actual infraestructura de administración de TI.</p>
 <p>
 <p>Adoptar esta nueva generación de portales de operaciones de TI le ayudará a:</p>
 <ul><li>Mejorar la administración de entornos de TI más y más complejos.</li>
@@ -481,7 +481,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:Login:PasswordPrompt' => 'Contrase&ntilde;a',
 	'UI:Login:ForgotPwd' => '¿Olvidó su contrase&ntilde;a?',
 	'UI:Login:ForgotPwdForm' => 'Olvido de Contrase&ntilde;a',
-	'UI:Login:ForgotPwdForm+' => 'iTop puede enviarle un correo en el cual encontrará las instrucciones a seguir para restablecer su contrase&ntilde;a.',
+	'UI:Login:ForgotPwdForm+' => 'AT-WFM puede enviarle un correo en el cual encontrará las instrucciones a seguir para restablecer su contrase&ntilde;a.',
 	'UI:Login:ResetPassword' => 'Enviar Ahora',
 	'UI:Login:ResetPwdFailed' => 'Error al enviar correo-e: %1$s',
 
@@ -493,8 +493,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:ResetPwd-Error-NoEmail' => 'Falta dirección de correo electrónico. Por favor contacte al administrador.',
 	'UI:ResetPwd-Error-Send' => 'Falla al envar un correo. Por favor contacte al administrador.',
 	'UI:ResetPwd-EmailSent' => 'Por favor verifique su buzón de correo y siga las instrucciones...',
-	'UI:ResetPwd-EmailSubject' => 'Restablecer contraseña de iTop',
-	'UI:ResetPwd-EmailBody' => '<body><p>Ha solicitado restablecer su contraseña en iTop.</p><p>Por favor de click en la siguiente liga: <a href="%1$s">proporcione una nueva contraseña</a></p>.',
+	'UI:ResetPwd-EmailSubject' => 'Restablecer contraseña de AT-WFM',
+	'UI:ResetPwd-EmailBody' => '<body><p>Ha solicitado restablecer su contraseña en AT-WFM.</p><p>Por favor de click en la siguiente liga: <a href="%1$s">proporcione una nueva contraseña</a></p>.',
 
 	'UI:ResetPwd-Title' => 'Restablecer Contrase&ntilde;a',
 	'UI:ResetPwd-Error-InvalidToken' => 'Lo siento, tal vez su contraseña ya ha sido cambiada, o ha recibido varios correos electrónicos. Por favor asegurese de haber dado click a la liga del último correo recibido.',
@@ -512,13 +512,13 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:LogOff:ClickHereToLoginAgain' => 'Click aquí para conectarse nuevamente',
   'UI:ChangePwdMenu' => 'Cambiar Contrase&ntilde;a',
 	'UI:Login:PasswordChanged' => '¡Contrase&ntilde;a Exitosamente Cambiada!',
-	'UI:AccessRO-All' => 'iTop está en modo de solo lectura',
-	'UI:AccessRO-Users' => 'iTop está en modo de solo lectura para usuarios',
+	'UI:AccessRO-All' => 'AT-WFM está en modo de solo lectura',
+	'UI:AccessRO-Users' => 'AT-WFM está en modo de solo lectura para usuarios',
 	'UI:ApplicationEnvironment' => 'Ambiente: %1$s',
 	'UI:Login:RetypePwdDoesNotMatch' => '¡La Nueva Contrase&ntilde;a y su Confirmación No Coinciden!',
 	'UI:Button:Login' => 'Entrar',
-	'UI:Login:Error:AccessRestricted' => 'El acceso a iTop está restringido. Por favor contacte al Administrador de iTop.',
-	'UI:Login:Error:AccessAdmin' => 'Acceso restringido a usuarios con privilegio de administrador. Por favor contacte al Administrador de iTop.',
+	'UI:Login:Error:AccessRestricted' => 'El acceso a AT-WFM está restringido. Por favor contacte al Administrador de AT-WFM.',
+	'UI:Login:Error:AccessAdmin' => 'Acceso restringido a usuarios con privilegio de administrador. Por favor contacte al Administrador de AT-WFM.',
 	'UI:CSVImport:MappingSelectOne' => '-- seleccione uno --',
 	'UI:CSVImport:MappingNotApplicable' => '-- ignore este campo --',
 	'UI:CSVImport:NoData' => 'Conjunto de datos vacío..., por favor provea algun dato.',
@@ -528,7 +528,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:CSVImport:DataLine1' => 'Linea de datos 1',
 	'UI:CSVImport:DataLine2' => 'Linea de datos 2',
 	'UI:CSVImport:idField' => 'Id (Clave Primaria)',
-	'UI:Title:BulkImport' => 'iTop - Importación por Lotes',
+	'UI:Title:BulkImport' => 'AT-WFM - Importación por Lotes',
 	'UI:Title:BulkImport+' => 'Asistente de Importación Archivos CSV',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => 'Sincronización de %1$d objetos de la clase %2$s',
 	'UI:CSVImport:ClassesSelectOne' => '-- seleccione uno --',
@@ -577,7 +577,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:CSVImport:AlertIncompleteMapping' => 'Por favor seleccione un mapeo para cada categoria.',
 	'UI:CSVImport:AlertNoSearchCriteria' => 'Por favor seleccione al menos un criterio de busqueda',
 	'UI:CSVImport:Encoding' => 'Código de Caracteres',		
-	'UI:UniversalSearchTitle' => 'iTop - Busqueda Universal',
+	'UI:UniversalSearchTitle' => 'AT-WFM - Busqueda Universal',
 	'UI:UniversalSearch:Error' => 'Error: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => 'Seleccione la clase a buscar: ',
 
@@ -625,9 +625,9 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:CSVExport:AdvancedMode' => 'Modo Avanzado',
 	'UI:CSVExport:AdvancedMode+' => 'En el modo avanzado, varias columnas son agregadas a la exportación: ID del objeto, ID de las llaves externas y los atributos de reconciliación.',
 	'UI:CSVExport:LostChars' => 'Errores de Código de Caracteres',
-	'UI:CSVExport:LostChars+' => 'El archivo descargado será codificado a %1$s. iTop detectó alguos caracteres que no son compatibles con este formato. Esos caracteres serán reemplazados por un sustituto (ejem.: caracteres sin acento), o serán descartados. Puede copiar/pegar datos desde su navegador de internet.  Alternativamente, puede contactar al administrador para cambiar el código de caracteres (Ver parámetro \'csv_file_default_charset\').',
+	'UI:CSVExport:LostChars+' => 'El archivo descargado será codificado a %1$s. AT-WFM detectó alguos caracteres que no son compatibles con este formato. Esos caracteres serán reemplazados por un sustituto (ejem.: caracteres sin acento), o serán descartados. Puede copiar/pegar datos desde su navegador de internet.  Alternativamente, puede contactar al administrador para cambiar el código de caracteres (Ver parámetro \'csv_file_default_charset\').',
 	
-	'UI:Audit:Title' => 'iTop - Auditoria a CMDB',
+	'UI:Audit:Title' => 'AT-WFM - Auditoria a CMDB',
 	'UI:Audit:InteractiveAudit' => 'Auditoria Interactiva',
 	'UI:Audit:HeaderAuditRule' => 'Reglas de Auditoria',
 	'UI:Audit:HeaderNbObjects' => '# Objetos',
@@ -636,7 +636,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'Error de OQL en la Regla %1$s: %2$s.',
 	'UI:Audit:ErrorIn_Category_Reason' => 'Error de OQL en la Categoría %1$s: %2$s.',
 	
-	'UI:RunQuery:Title' => 'iTop - Evaluación de consultas OQL',
+	'UI:RunQuery:Title' => 'AT-WFM - Evaluación de consultas OQL',
 	'UI:RunQuery:QueryExamples' => 'Explorador de Consultas',
 	'UI:RunQuery:HeaderPurpose' => 'Propósito',
 	'UI:RunQuery:HeaderPurpose+' => 'Explicación acerca de la consulta',
@@ -648,8 +648,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:RunQuery:SerializedFilter' => 'Filtro de serialización: ',
 	'UI:RunQuery:Error' => 'Ha ocurrido un error al ejecutar la consulta: %1$s',	
 	'UI:Query:UrlForExcel' => 'URL para usarse en consultas web de MS-Excel',
-	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of iTop. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
-	'UI:Schema:Title' => 'Esquema de Objetos en iTop',
+	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of AT-WFM. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
+	'UI:Schema:Title' => 'Esquema de Objetos en AT-WFM',
 	'UI:Schema:CategoryMenuItem' => 'Categoria <b>%1$s</b>',
 	'UI:Schema:Relationships' => 'Relaciones',
 	'UI:Schema:AbstractClass' => 'Clase Abstracta: Ningún objeto de esta clase puede ser representado.',
@@ -757,36 +757,36 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:Delect:Confirm_Object' => 'Por favor confirme que quiere borrar %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Por favor confirme que quiere eliminar los siguientes %1$d objeto de la clase %2$s.',
 	'UI:WelcomeToITop' => 'Bienvenido a AT-WFM',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - Detalles %2$s',
-	'UI:ErrorPageTitle' => 'iTop - Error',
+	'UI:DetailsPageTitle' => 'AT-WFM - %1$s - Detalles %2$s',
+	'UI:ErrorPageTitle' => 'AT-WFM - Error',
 	'UI:ObjectDoesNotExist' => 'Disculpe, este objeto no existe (o no está autorizado para verlo).',
-	'UI:SearchResultsPageTitle' => 'iTop - Resultados de la Búsqueda',
+	'UI:SearchResultsPageTitle' => 'AT-WFM - Resultados de la Búsqueda',
 	'UI:Search:NoSearch' => 'Nada para buscar',
 	'UI:FullTextSearchTitle_Text' => 'Resultados para "%1$s":',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '%1$d objeto(s) de la clase %2$s encontrado(s).',
 	'UI:Search:NoObjectFound' => 'No se encontraron objetos.',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - %1$s - %2$s modificación',
+	'UI:ModificationPageTitle_Object_Class' => 'AT-WFM - %1$s - %2$s modificación',
 	'UI:ModificationTitle_Class_Object' => 'Modificación de %1$s: <span class=\"hilite\">%2$s</span>',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - Duplicar %1$s - %2$s modificación',
+	'UI:ClonePageTitle_Object_Class' => 'AT-WFM - Duplicar %1$s - %2$s modificación',
 	'UI:CloneTitle_Class_Object' => 'Duplicado de %1$s: <span class=\"hilite\">%2$s</span>',
-	'UI:CreationPageTitle_Class' => 'iTop - Creación de %1$s ',
+	'UI:CreationPageTitle_Class' => 'AT-WFM - Creación de %1$s ',
 	'UI:CreationTitle_Class' => 'Creación de %1$s',
 	'UI:SelectTheTypeOf_Class_ToCreate' => 'Seleccione el tipo de %1$s a crear:',
 	'UI:Class_Object_NotUpdated' => 'No se detectaron cambios, %1$s (%2$s) <strong>no</strong> fue modificado.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) actualizado.',
-	'UI:BulkDeletePageTitle' => 'iTop - Eliminar por lote',
+	'UI:BulkDeletePageTitle' => 'AT-WFM - Eliminar por lote',
 	'UI:BulkDeleteTitle' => 'Seleccione los objetos que desea eliminar:',
-	'UI:PageTitle:ObjectCreated' => 'Objeto de iTop creado.',
+	'UI:PageTitle:ObjectCreated' => 'Objeto de AT-WFM creado.',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s creado.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => 'Aplicando %1$s en el objeto: %2$s en estado %3$s al estado deseado: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => 'el objeto no pudo ser escrito: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - Error Fatal',
-	'UI:FatalErrorMessage' => 'Error fatal, iTop no puede continuar.',
+	'UI:PageTitle:FatalError' => 'AT-WFM - Error Fatal',
+	'UI:FatalErrorMessage' => 'Error fatal, AT-WFM no puede continuar.',
 	'UI:SystemIntrusion' => 'Acceso denegado. Esta tratando de ejecutar una operación no permitida para usted.',
 	'UI:Error_Details' => 'Error: %1$s.',
 
-	'UI:PageTitle:ClassProjections'	=> 'Administración de usuarios iTop - proyecciones de clases',
-	'UI:PageTitle:ProfileProjections' => 'Administración de usuarios iTop - proyecciones de Perfil',
+	'UI:PageTitle:ClassProjections'	=> 'Administración de usuarios AT-WFM - proyecciones de clases',
+	'UI:PageTitle:ProfileProjections' => 'Administración de usuarios AT-WFM - proyecciones de Perfil',
 	'UI:UserManagement:Class' => 'Clase',
 	'UI:UserManagement:Class+' => 'Clase de objetos',
 	'UI:UserManagement:ProjectedObject' => 'Objeto',
@@ -886,7 +886,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Menu:NotificationsMenu+' => 'Configuración de las Notificaciones', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => 'Configuración de las <span class="hilite">Notificaciones</span>',
 	'UI:NotificationsMenu:Help' => 'Ayuda',
-	'UI:NotificationsMenu:HelpContent' => '<p>En iTop las notificaciones son completamente personalizables. Están basadas en dos conjuntos de objetos: <i>Disparadores y Acciones</i>.</p>
+	'UI:NotificationsMenu:HelpContent' => '<p>En AT-WFM las notificaciones son completamente personalizables. Están basadas en dos conjuntos de objetos: <i>Disparadores y Acciones</i>.</p>
 <p>Los <i><b>disparadores</b></i> definen cuando una notificación debe ser ejecutada.  Existen 3 tipos de disparadores para cubrir las 3 diferentes fases del ciclo de vida de un objeto:
 <ol>
 	<li>Los disparadores "OnCreate" son ejecutados cuando un objeto de la clase especificada es creado</li>
@@ -938,8 +938,8 @@ Cuando se asocien con un disparador, cada acción recibe un número de "orden", 
 	'Menu:UserAccountsMenu+' => 'Cuentas de Usuario', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:UserAccountsMenu:Title' => 'Cuentas de Usuario', // Duplicated into itop-welcome-itil (will be removed from here...)
 
-	'UI:iTopVersion:Short' => 'iTop versión %1$s',
-	'UI:iTopVersion:Long' => 'iTop versión %1$s-%2$s compilada en %3$s',
+	'UI:iTopVersion:Short' => 'AT-WFM versión %1$s',
+	'UI:iTopVersion:Long' => 'AT-WFM versión %1$s-%2$s compilada en %3$s',
 	'UI:PropertiesTab' => 'Propiedades',
 
 	'UI:OpenDocumentInNewWindow_' => 'Abra este documento en una ventana nueva: %1$s',
@@ -962,7 +962,7 @@ Cuando se asocien con un disparador, cada acción recibe un número de "orden", 
 	'UI:ElementsDisplayed' => 'Despliegue',
 
  	'Portal:Title' => 'Portal de Usuarios',
-	'Portal:NoRequestMgmt' => 'Estimado(a) %1$s, ha sido redirigido a esta página porque su cuenta está configurada con el Perfil \'Portal user\'. Desafortunadamente, iTop no fue instalado con el módulo \'Request Management\'. Por favor contacte a su Administrador.',
+	'Portal:NoRequestMgmt' => 'Estimado(a) %1$s, ha sido redirigido a esta página porque su cuenta está configurada con el Perfil \'Portal user\'. Desafortunadamente, AT-WFM no fue instalado con el módulo \'Request Management\'. Por favor contacte a su Administrador.',
 	'Portal:Refresh' => 'Actualizar',
 	'Portal:Back' => 'Atrás',
 	'Portal:WelcomeUserOrg' => 'Bienvenido %1$s, de %2$s',
@@ -987,7 +987,7 @@ Cuando se asocien con un disparador, cada acción recibe un número de "orden", 
 	'Portal:Button:CloseTicket' => 'Cerrar este Ticket',
 	'Portal:Button:UpdateRequest' => 'Actualizar el Requerimiento',
 	'Portal:EnterYourCommentsOnTicket' => 'Captura tus Comentarios acerca de la Solución de este Ticket:',
-	'Portal:ErrorNoContactForThisUser' => 'Error: el Usuario no está asociado con un Contacto/Persona. Por favor contacte al Administrador de iTop',
+	'Portal:ErrorNoContactForThisUser' => 'Error: el Usuario no está asociado con un Contacto/Persona. Por favor contacte al Administrador de AT-WFM',
   'Portal:Attachments' => 'Anexos',
 	'Portal:AddAttachment' => 'Agregar Anexo',
 	'Portal:RemoveAttachment' => 'Borrar Anexo',
@@ -1040,7 +1040,7 @@ Cuando se asocien con un disparador, cada acción recibe un número de "orden", 
 	'UI:Favorites:Default_X_ItemsPerPage' => 'Tama&ntilde;o Predeterminado de Listas:  %1$s elementos por página',
 	'UI:NavigateAwayConfirmationMessage' => 'Cualquier modificación será descartada.',
 	'UI:CancelConfirmationMessage' => 'Perderá los cambios realizados. ¿Desea Continuar?',
-	'UI:AutoApplyConfirmationMessage' => 'Algunos cambios no han sido aplicados todavía. ¿Quiere que iTop los tome en cuenta?',
+	'UI:AutoApplyConfirmationMessage' => 'Algunos cambios no han sido aplicados todavía. ¿Quiere que AT-WFM los tome en cuenta?',
 	'UI:Create_Class_InState' => 'Crear %1$s en el estado: ',	
 	'UI:OrderByHint_Values' => 'Ordenamiento: %1$s',
 	'UI:Menu:AddToDashboard' => 'Agregar a Panel de Control',
@@ -1342,7 +1342,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Class:User/Attribute:language/Value:FR FR' => 'French~~',
 	'Class:User/Attribute:language/Value:FR FR+' => 'French (France)~~',
 	'Class:UserInternal' => 'User Internal~~',
-	'Class:UserInternal+' => 'User defined within iTop~~',
+	'Class:UserInternal+' => 'User defined within AT-WFM~~',
 	'UI:CSVImport:AlertMultipleMapping' => 'Please make sure that a target field is mapped only once.~~',
 	'UI:Search:NeedleTooShort' => 'The search string \"%1$s\" is too short. Please type at least %2$d characters.~~',
 	'UI:Search:Ongoing' => 'Searching for \"%1$s\"~~',
@@ -1397,8 +1397,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:ValueMustBeSet' => 'Please specify a value~~',
 	'UI:ValueMustBeChanged' => 'Please change the value~~',
 	'UI:ValueInvalidFormat' => 'Invalid format~~',
-	'UI:AboutBox' => 'About iTop...~~',
-	'UI:About:Title' => 'About iTop~~',
+	'UI:AboutBox' => 'About AT-WFM...~~',
+	'UI:About:Title' => 'About AT-WFM~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
 	'UI:About:Licenses' => 'Licenses~~',
@@ -1418,7 +1418,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'ExcelExport:PreparingExport' => 'Preparing the export...~~',
 	'ExcelExport:Statistics' => 'Statistics~~',
 	'portal:legacy_portal' => 'End-User Portal~~',
-	'portal:backoffice' => 'iTop Back-Office User Interface~~',
+	'portal:backoffice' => 'AT-WFM Back-Office User Interface~~',
 	'UI:CurrentObjectIsLockedBy_User' => 'The object is locked since it is currently being modified by %1$s.~~',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => 'The object is currently being modified by %1$s. Your modifications cannot be submitted since they would be overwritten.~~',
 	'UI:CurrentObjectLockExpired' => 'The lock to prevent concurrent modifications of the object has expired.~~',
