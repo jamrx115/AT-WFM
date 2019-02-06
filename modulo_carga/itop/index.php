@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>     
+	<script src="https://maps.google.com/maps/api/js?sensor=false"></script>     
 	
     <link rel="stylesheet" href="bootstrap-3.3.6/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap-3.3.6/dist/css/bootstrap-theme.min.css">
