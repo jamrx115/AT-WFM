@@ -26,14 +26,14 @@
  */
 
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
-	'Menu:RequestManagement' => 'Administración de Requerimientos',
-	'Menu:RequestManagement+' => 'Administración de Requerimientos',
+	'Menu:RequestManagement' => 'Administración de Solicitudes y ordenes de trabajo',
+	'Menu:RequestManagement+' => 'Administración de Solicitudes y ordenes de trabajo',
 	'Menu:RequestManagementProvider' => 'Proveedor de Mesa de Ayuda',
 	'Menu:RequestManagementProvider+' => 'Proveedor de Mesa de Ayuda',
-	'Menu:UserRequest:Provider' => 'Requerimientos Abiertos transferidos a Proveedor',
-	'Menu:UserRequest:Provider+' => 'Requerimientos Abiertos transferidos a Proveedor',
-	'Menu:UserRequest:Overview' => 'Resumen de Requerimientos',
-	'Menu:UserRequest:Overview+' => 'Resumen de Requerimientos',
+	'Menu:UserRequest:Provider' => 'Solicitudes y ordenes de trabajo Abiertos transferidos a Proveedor',
+	'Menu:UserRequest:Provider+' => 'Solicitudes y ordenes de trabajo Abiertos transferidos a Proveedor',
+	'Menu:UserRequest:Overview' => 'Resumen de Solicitudes y ordenes de trabajo',
+	'Menu:UserRequest:Overview+' => 'Resumen de Solicitudes y ordenes de trabajo',
 	'Menu:NewUserRequest' => 'Nuevo Requerimiento',
 	'Menu:NewUserRequest+' => 'Nuevo Requerimiento',
 	'Menu:SearchUserRequests' => 'Búsqueda de Requerimientos',

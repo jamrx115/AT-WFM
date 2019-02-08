@@ -54,67 +54,67 @@
 
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 
-	'Menu:RequestManagement' => 'Administración de Requerimientos',
+	'Menu:RequestManagement' => 'Administración de Solicitudes y ordenes de trabajo',
 
-	'Menu:RequestManagement+' => 'Administración de Requerimientos',
+	'Menu:RequestManagement+' => 'Administración de Solicitudes y ordenes de trabajo',
 
 	'Menu:RequestManagementProvider' => 'Proveedor de Mesa de Ayuda',
 
 	'Menu:RequestManagementProvider+' => 'Proveedor de Mesa de Ayuda',
 
-	'Menu:UserRequest:Provider' => 'Requerimientos Abiertos transferidos a Proveedor',
+	'Menu:UserRequest:Provider' => 'Solicitudes y ordenes de trabajo abiertos transferidos a Proveedor',
 
-	'Menu:UserRequest:Provider+' => 'Requerimientos Abiertos transferidos a Proveedor',
+	'Menu:UserRequest:Provider+' => 'Solicitudes y ordenes de trabajo abiertos transferidos a Proveedor',
 
-	'Menu:UserRequest:Overview' => 'Resumen de Requerimientos',
+	'Menu:UserRequest:Overview' => 'Resumen de Solicitudes y ordenes de trabajo',
 
-	'Menu:UserRequest:Overview+' => 'Resumen de Requerimientos',
+	'Menu:UserRequest:Overview+' => 'Resumen de Solicitudes y ordenes de trabajo',
 
-	'Menu:NewUserRequest' => 'Nuevo Requerimiento',
+	'Menu:NewUserRequest' => 'Nuevo Solicitudes y ordenes de trabajo',
 
-	'Menu:NewUserRequest+' => 'Nuevo Requerimiento',
+	'Menu:NewUserRequest+' => 'Nuevo Solicitudes y ordenes de trabajo',
 
-	'Menu:SearchUserRequests' => 'Búsqueda de Requerimientos',
+	'Menu:SearchUserRequests' => 'Búsqueda de Solicitudes y ordenes de trabajo',
 
-	'Menu:SearchUserRequests+' => 'Búsqueda de Requerimientos',
+	'Menu:SearchUserRequests+' => 'Búsqueda de Solicitudes y ordenes de trabajo',
 
 	'Menu:UserRequest:Shortcuts' => 'Acceso Rápido',
 
 	'Menu:UserRequest:Shortcuts+' => 'Acceso Rápido',
 
-	'Menu:UserRequest:MyRequests' => 'Requerimientos Asignados a Mí',
+	'Menu:UserRequest:MyRequests' => 'Solicitudes y ordenes de trabajo Asignados a Mí',
 
-	'Menu:UserRequest:MyRequests+' => 'Requerimientos Asignados a Mí (como Analista)',
+	'Menu:UserRequest:MyRequests+' => 'Solicitudes y ordenes de trabajo Asignados a Mí (como Analista)',
 
 	'Menu:UserRequest:MySupportRequests' => "Llamadas de Soporte Asignadas a Mí",
 
 	'Menu:UserRequest:MySupportRequests+' => "Llamadas de Soporte Asignadas a Mí (como Analista)",
 
-  'Menu:UserRequest:EscalatedRequests' => 'Requerimientos Escalados',
+  'Menu:UserRequest:EscalatedRequests' => 'Solicitudes y ordenes de trabajo Escalados',
 
-	'Menu:UserRequest:EscalatedRequests+' => 'Requerimientos Escalados',
+	'Menu:UserRequest:EscalatedRequests+' => 'Solicitudes y ordenes de trabajo Escalados',
 
-	'Menu:UserRequest:OpenRequests' => 'Requerimientos Abiertos',
+	'Menu:UserRequest:OpenRequests' => 'Solicitudes y ordenes de trabajo Abiertos',
 
-	'Menu:UserRequest:OpenRequests+' => 'Requerimientos Abiertos',
+	'Menu:UserRequest:OpenRequests+' => 'Solicitudes y ordenes de trabajo Abiertos',
 
 	'Menu:UserRequest:OpenProblems' => 'Problemas Abiertos',
 
 	'Menu:UserRequest:OpenProblems+' => 'Problemas Abiertos',
 
-	'UI:WelcomeMenu:MyAssignedCalls' => 'Requerimientos asignados a Mí',
+	'UI:WelcomeMenu:MyAssignedCalls' => 'Solicitudes y ordenes de trabajo asignados a Mí',
 
-	'UI-RequestManagementOverview-RequestByType-last-14-days' => 'Requerimientos por Tipo de los Últimos 14 días',
+	'UI-RequestManagementOverview-RequestByType-last-14-days' => 'Solicitudes y ordenes de trabajo por Tipo de los Últimos 14 días',
 
-	'UI-RequestManagementOverview-Last-14-days' => 'Número de Requerimientos de los Últimos 14 días',
+	'UI-RequestManagementOverview-Last-14-days' => 'Número de Solicitudes y ordenes de trabajo de los Últimos 14 días',
 
-	'UI-RequestManagementOverview-OpenRequestByStatus' => 'Requerimientos Abiertos por Estatus',
+	'UI-RequestManagementOverview-OpenRequestByStatus' => 'Solicitudes y ordenes de trabajo Abiertos por Estatus',
 
-	'UI-RequestManagementOverview-OpenRequestByAgent' => 'Requerimientos Abiertos por Analista',
+	'UI-RequestManagementOverview-OpenRequestByAgent' => 'Solicitudes y ordenes de trabajo Abiertos por Analista',
 
-	'UI-RequestManagementOverview-OpenRequestByType' => 'Requerimientos Abiertos por Tipo',
+	'UI-RequestManagementOverview-OpenRequestByType' => 'Solicitudes y ordenes de trabajo Abiertos por Tipo',
 
-	'UI-RequestManagementOverview-OpenRequestByCustomer' => 'Requerimientos Abiertos por Cliente',
+	'UI-RequestManagementOverview-OpenRequestByCustomer' => 'Solicitudes y ordenes de trabajo Abiertos por Cliente',
 
 	'Class:UserRequest:KnownErrorList' => 'Errores Conocidos',
 
@@ -158,9 +158,9 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 
-	'Class:UserRequest' => 'Requerimiento',
+	'Class:UserRequest' => 'Solicitudes y ordenes de trabajo',
 
-	'Class:UserRequest+' => 'Requerimiento',
+	'Class:UserRequest+' => 'Solicitudes y ordenes de trabajo',
 
 	'Class:UserRequest/Attribute:status' => 'Estatus',
 
@@ -214,9 +214,9 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 
 	'Class:UserRequest/Attribute:request_type/Value:incident+' => 'Incidente',
 
-	'Class:UserRequest/Attribute:request_type/Value:service_request' => 'Requerimiento de Servicio',
+	'Class:UserRequest/Attribute:request_type/Value:service_request' => 'Solicitudes y ordenes de trabajo ',
 
-	'Class:UserRequest/Attribute:request_type/Value:service_request+' => 'Requerimiento de Servicio',
+	'Class:UserRequest/Attribute:request_type/Value:service_request+' => 'Solicitudes y ordenes de trabajo',
 
 	'Class:UserRequest/Attribute:impact' => 'Impacto',
 
@@ -426,13 +426,13 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 
 	'Class:UserRequest/Attribute:pending_reason+' => 'Motivo Pendiente',
 
-	'Class:UserRequest/Attribute:parent_request_id' => 'Requerimiento Padre',
+	'Class:UserRequest/Attribute:parent_request_id' => 'Solicitudes y ordenes de trabajo Padre',
 
-	'Class:UserRequest/Attribute:parent_request_id+' => 'Requerimiento Padre',
+	'Class:UserRequest/Attribute:parent_request_id+' => 'Solicitudes y ordenes de trabajo Padre',
 
-	'Class:UserRequest/Attribute:parent_request_ref' => 'Ref. Requerimiento',
+	'Class:UserRequest/Attribute:parent_request_ref' => 'Ref. Solicitudes y ordenes de trabajo',
 
-	'Class:UserRequest/Attribute:parent_request_ref+' => 'Ref. Requerimiento',
+	'Class:UserRequest/Attribute:parent_request_ref+' => 'Ref. Solicitudes y ordenes de trabajo',
 
 	'Class:UserRequest/Attribute:parent_problem_id' => 'Problema Padre',
 
@@ -454,9 +454,9 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 
 	'Class:UserRequest/Attribute:parent_change_ref+' => 'Ref. Cambio',
 
-	'Class:UserRequest/Attribute:related_request_list' => 'Requerimientos Hijo',
+	'Class:UserRequest/Attribute:related_request_list' => 'Solicitudes y ordenes de trabajo Hijo',
 
-	'Class:UserRequest/Attribute:related_request_list+' => 'Requerimientos Hijo',
+	'Class:UserRequest/Attribute:related_request_list+' => 'Solicitudes y ordenes de trabajo Hijo',
 
 	'Class:UserRequest/Attribute:public_log' => 'Bitácora Pública',
 
