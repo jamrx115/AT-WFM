@@ -15,7 +15,7 @@
 	<link   href="js/Gritter-master/css/jquery.gritter.css" rel="stylesheet">
 	<script src="js/Gritter-master/js/jquery.gritter.js"></script>
 	
-	<link   href="css/mystyles.css" rel="stylesheet">
+
 	<script src="js/myeffects.js"></script>
 	<script src="js_local.js"></script>
 	<script>

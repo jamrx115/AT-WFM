@@ -31,6 +31,7 @@ $.fn.menu = function(options){
 };
 
 function Menu(caller, options){
+	
 	var menu = this;
 	var caller = $(caller);
 	var container = $('<div class="fg-menu-container ui-widget ui-widget-content ui-corner-all">'+options.content+'</div>');

@@ -117,8 +117,8 @@
 		
 		$sql2_d = "DELETE FROM diagrama_reporte WHERE id_diagrama NOT IN (" . implode(",", $id_a) . "," . implode(",", $id_b) . ") AND id_orden = ?";
 		$sql2_i = "INSERT INTO diagrama_reporte (id_orden,nodo,rack,odf,hilo,conector,tipo_conector) VALUES(?, ?, ?, ?, ?, ?, ?)";
-		$sql2_u = "UPDATE diagrama_reporte set rack = ?, odf = ?, hilo = ?, conector = ?, tipo_conector = ? WHERE id_orden = ?";
-		
+		$sql2_u = "UPDATE diagrama_reporte set rack = ?, odf = ?, hilo = ?, conector = ?, tipo_conector = ? WHERE id_diagrama = ? and id_orden = ?";
+
 		$sql3_d = "DELETE t, h FROM tendido_reporte AS t JOIN herraje AS h ON (t.id_tendido = h.id_tendido) WHERE t.id_tendido NOT IN (" . implode(",", $id_tendido) . ") AND id_orden = ?";
 		$sql3_i = "INSERT INTO tendido_reporte(id_orden,tipo_tendido,id_elemento,longitud_siguiente,latitud,longitud,secuencia_ini,secuencia_fin) VALUES(?, ?, ?, ?, ?, ?, ?, ?)";
 		$sql3_u = "UPDATE tendido_reporte set tipo_tendido = ?, id_elemento = ?, longitud_siguiente = ?, latitud = ?, longitud = ?, secuencia_ini = ?, secuencia_fin = ? WHERE id_tendido = ?";

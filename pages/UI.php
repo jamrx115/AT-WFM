@@ -1,26 +1,3 @@
-<script src="https://code.jquery.com/jquery-1.3.2.min.js" type="text/javascript"></script>   
-
-<script language="javascript">
-$(document).ready(function(){
-   // El atributo href del primer enlace
- $("#tabbedContent_0 li").each(function(){
-        	    //alert($(this).text())
-				if($(this).text()=='ECs' )
-				{
-				   
-					$(this).remove()
-				}
-				if($(this).text()=='Ordenes de Trabajo' )
-				{
-				   
-					$(this).remove()
-				}
-$("#tab_01").remove();
-$("#tab_04").remove();				
-        	});
- 
-});
-</script>
 <?php
 // Copyright (C) 2010-2015 Combodo SARL
 //

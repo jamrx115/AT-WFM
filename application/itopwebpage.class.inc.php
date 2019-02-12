@@ -717,7 +717,7 @@ EOF
 			{
 				$this->add_script("var iPaneVisWatchDog  = window.setTimeout('FixPaneVis()',5000);");
 			}
-			$this->add_script("\$(document).ready(function() {\n{$this->m_sInitScript};\nwindow.setTimeout('onDelayedReady()',10)\n});");
+				$this->add_script("\$(document).ready(function() { \n $('#tabbedContent_0 li').each(function(){ \n if($(this).text()=='ECs' || $(this).text()=='Ordenes de Trabajo'){\n $(this).css('display', 'none'); }  \n }); \n{$this->m_sInitScript};\nwindow.setTimeout('onDelayedReady()',10)\n});");
 			if ($this->IsPrintableVersion())
 			{
 				$this->add_ready_script(
@@ -786,9 +786,9 @@ EOF
 			$sHtml .= "<div class=\"explain-printable not-printable\">";
 			$sHtml .= '<p>'.Dict::Format('UI:ExplainPrintable', '<img src="../images/eye-open-555.png" style="vertical-align:middle">').'</p>';
 			$sHtml .= "<div id=\"hiddeable_chapters\"></div>";
-			$sHtml .= '<button onclick="window.print()">'.htmlentities(Dict::S('UI:Button:GoPrint'), ENT_QUOTES, 'UTF-8').'</button>';
+			$sHtml .= '<button onClick="window.print()">'.htmlentities(Dict::S('UI:Button:GoPrint'), ENT_QUOTES, 'UTF-8').'</button>';
 			$sHtml .= '&nbsp;';
-			$sHtml .= '<button onclick="window.close()">'.htmlentities(Dict::S('UI:Button:Cancel'), ENT_QUOTES, 'UTF-8').'</button>';
+			$sHtml .= '<button onClick="window.close()">'.htmlentities(Dict::S('UI:Button:Cancel'), ENT_QUOTES, 'UTF-8').'</button>';
 			$sHtml .= "</div>";
 		}
 
