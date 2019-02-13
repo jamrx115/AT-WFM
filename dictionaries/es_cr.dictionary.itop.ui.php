@@ -129,8 +129,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Class:User/Attribute:language/Value:ES CR+' => 'Español, Castellano',
 	'Class:User/Attribute:profile_list' => 'Perfiles',
 	'Class:User/Attribute:profile_list+' => 'Roles, y permisos otorgados a esa persona',
-	'Class:User/Attribute:allowed_org_list' => 'Organizaciones Permitidas',
-	'Class:User/Attribute:allowed_org_list+' => 'El usuario tiene permitido ver la información perteneciente a las siguientes Organizaciones. Sino se especificó una Organización, esto no es una restricción.',
+	'Class:User/Attribute:allowed_org_list' => 'Unidades de Operación o Negocio Permitidas',
+	'Class:User/Attribute:allowed_org_list+' => 'El usuario tiene permitido ver la información perteneciente a las siguientes Unidades de Operación o Negocio. Sino se especificó una Organización, esto no es una restricción.',
 
 	'Class:User/Error:LoginMustBeUnique' => 'Usuario debe ser único - "%1s" ya se encuentra en uso.',
 	'Class:User/Error:AtLeastOneProfileIsNeeded' => 'Al menos un Perfil debe ser asignado a este usuario.',
@@ -191,8 +191,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 
 
 Dict::Add('ES CR', 'Spanish', 'Español Castellano', array(
-	'Class:URP_UserOrg' => 'Organizaciones de Usuario',
-	'Class:URP_UserOrg+' => 'Organizaciones Permitidas',
+	'Class:URP_UserOrg' => 'Unidades de Operación o Negocio de Usuario',
+	'Class:URP_UserOrg+' => 'Unidades de Operación o Negocio Permitidas',
 	'Class:URP_UserOrg/Attribute:userid' => 'Usuario',
 	'Class:URP_UserOrg/Attribute:userid+' => 'Cuenta de usuario',
 	'Class:URP_UserOrg/Attribute:userlogin' => 'Login',
@@ -328,7 +328,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 </ul>
 <p>Todos los módulos pueden ser configurados, paso a paso, individual e independientemente de los otros.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>AT-WFM está orientado a los proveedores de servicios, le permite al personal de TI administrar fácilmente múltiples Organizaciones.
+	'UI:WelcomeMenu:RightBlock' => '<p>AT-WFM está orientado a los proveedores de servicios, le permite al personal de TI administrar fácilmente múltiples Unidades de Operación o Negocio.
 <p>AT-WFM, provee un conjunto de funciones de procesos de negocio que: </p>
 <ul><li>Mejora la efectividad de la adminitración de TI</li> 
 <li>Dirige el desempeño de la operaciones de TI</li> 
@@ -348,7 +348,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:WelcomeMenu:AllConfigItems' => 'Elementos de Configuración: %1$d',
 	'UI:WelcomeMenu:AllOpenRequests' => 'Requerimientos Abiertos: %1$d',
 	'UI:WelcomeMenu:OpenIncidents' => 'Incidentes Abiertos: %1$d',
-	'UI:AllOrganizations' => ' Todas las Organizaciones',
+	'UI:AllOrganizations' => ' Todas las Unidades de Operación o Negocio',
 	'UI:YourSearch' => 'Su búsqueda',
 	'UI:LoggedAsMessage' => 'Conectado como %1$s',
 	'UI:LoggedAsMessage+Admin' => 'Conectado como %1$s (Administrator)',
@@ -1032,8 +1032,8 @@ Cuando se asocien con un disparador, cada acción recibe un número de "orden", 
 	'UI:HierarchyOf_Class' => 'Jerarquía de %1$s',
 	'UI:Preferences' => 'Preferencias',
 	'UI:FavoriteOrganizations' => 'Mi Organización Favorita',
-	'UI:FavoriteOrganizations+' => 'Verifique en la siguiente lista de Organizaciones, la que necesite ver en los menues para un rápido acceso. '.
-								   'Nota, esto no es una configuración de seguridad, elementos de cualquier Organización son visibles y pueden ser accesados mediante la selección de "Todas las Organizaciones" en la lista del menú.',
+	'UI:FavoriteOrganizations+' => 'Verifique en la siguiente lista de Unidades de Operación o Negocio, la que necesite ver en los menues para un rápido acceso. '.
+								   'Nota, esto no es una configuración de seguridad, elementos de cualquier Organización son visibles y pueden ser accesados mediante la selección de "Todas las Unidades de Operación o Negocio" en la lista del menú.',
 	'UI:FavoriteLanguage' => 'Idioma de la Interfaz de Usuario',
 	'UI:Favorites:SelectYourLanguage' => 'Seleccione su Idioma Predeterminado',
 	'UI:FavoriteOtherSettings' => 'Otras Configuraciones',
