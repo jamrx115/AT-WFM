@@ -18,3 +18,19 @@
 2019-02-13 20:47:49 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
 2019-02-13 20:47:49 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
 2019-02-13 20:47:49 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-13 23:16:35 | Error | Failed to execute: mysqldump --opt --default-character-set=utf8 --add-drop-database --single-transaction --host="alltic.co"  --user=xxxxx --password=xxxxx --result-file="C:\Users\allticpc\AppData\Local\Temp\ito784A.tmp" "alltic_causel" . The command returned:1
+2019-02-13 23:16:35 | Error | mysqldump said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-13 23:16:35 | Error | mysqldump said: operable program or batch file.
+2019-02-13 23:23:23 | Error | Failed to execute: mysqldump --opt --default-character-set=utf8 --add-drop-database --single-transaction --host="alltic.co"  --user=xxxxx --password=xxxxx --result-file="C:\Users\allticpc\AppData\Local\Temp\itoB40E.tmp" "alltic_causel" . The command returned:1
+2019-02-13 23:23:23 | Error | mysqldump said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-13 23:23:23 | Error | mysqldump said: operable program or batch file.
+2019-02-13 23:24:44 | Error | Failed to execute: mysqldump --opt --default-character-set=utf8 --add-drop-database --single-transaction --host="alltic.co"  --user=xxxxx --password=xxxxx --result-file="C:\Users\allticpc\AppData\Local\Temp\itoED5A.tmp" "alltic_causel" . The command returned:1
+2019-02-13 23:24:44 | Error | mysqldump said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-13 23:24:44 | Error | mysqldump said: operable program or batch file.
+2019-02-15 20:24:27 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:24:27 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:33:38 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:33:39 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:36:40 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:36:40 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:36:40 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
