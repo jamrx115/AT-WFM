@@ -2,7 +2,6 @@ var tendido = 0;
 
 function localize(num)
 {
-	alert('ok 1');
 	tendido = num;
 	
 	if (navigator.geolocation)
@@ -17,7 +16,6 @@ function localize(num)
 
 function mapa(pos)
 {
-	alert('ok');
 	var latitud = pos.coords.latitude;
 	var longitud = pos.coords.longitude;
 	var precision = pos.coords.accuracy;
