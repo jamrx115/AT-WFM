@@ -33,6 +33,11 @@
 select MIN(id_fecha)as id,id_orden from   fecha_llegada where tipo=2
 group by id_orden ) as min_id on tb1.id_fecha=min_id.id
 where tb1.id_orden =" . $id_orden;
+
+$sql_coordenadas_llegada = "select tb1.id_orden,lat,lon from fecha_llegada as tb1 inner join (
+select MIN(id_fecha)as id,id_orden from   fecha_llegada where tipo=1
+group by id_orden ) as min_id on tb1.id_fecha=min_id.id
+where tb1.id_orden =" . $id_orden;
 				
 		$sql_portada = "SELECT *
 				FROM portada as p 
@@ -65,6 +70,9 @@ where tb1.id_orden =" . $id_orden;
 		$query_coordenadas =  $pdo->prepare($sql_coordenadas);
 		$query_coordenadas->execute();
 		
+		$query_coordenadas_llegada =  $pdo->prepare($sql_coordenadas_llegada);
+		$query_coordenadas_llegada->execute();
+		
 		$query_portada =  $pdo->prepare($sql_portada);
 		$query_portada->execute();
 		
@@ -89,6 +97,9 @@ where tb1.id_orden =" . $id_orden;
 		
 		$result_coordenadas = array();
 		$result_coordenadas = $query_coordenadas->fetch(PDO::FETCH_ASSOC);
+		
+		$result_coordenadas_llegada = array();
+		$result_coordenadas_llegada = $query_coordenadas_llegada->fetch(PDO::FETCH_ASSOC);
 		
 		do {
 			if($result_query_diagramas['nodo'] == 'A') {
@@ -154,7 +165,7 @@ where tb1.id_orden =" . $id_orden;
 			<p>
 		  <ul class="list-none-style"><li><table width="1210" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td width="594">
+              <td width="424">
                 <div align="left">
                   <ul class="list-none-style">
                     <li>Número de instalación: <b><?php echo $result_user['num_instal']; ?></b></li>
@@ -164,21 +175,24 @@ where tb1.id_orden =" . $id_orden;
                     <li>Responsable orden: <b><?php echo $result_user['agent_id_friendlyname']; ?></b></li>
                   </ul>
               </div></td>
-              <td width="600"><div align="left">
+              <td width="786"><div align="left">
                   <ul class="list-none-style">
                     <li>
-                      <table width="348" border="0" cellpadding="0" cellspacing="0">
+                      <table width="723" border="0" cellpadding="0" cellspacing="0">
+                        
                         <tr>
-                          <td height="39" colspan="2">
-                            <div align="left">
-                              <input type="submit" name="Submit" value="Registra coordenadas del sitio" onClick="localize2(1)">
-                            </div></td>
+                          <td colspan="2">Coordenadas de llegada</td>
+                          <td colspan="2"><input type="submit" name="Submit" value="Registra coordenadas del sitio" onClick="localize2(1)"></td>
                         </tr>
                         <tr>
-                          <td width="61">Latitud:</td>
-                          <td width="287"><input name="latitud_salida" id="latitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lat']; ?>"></td>
+                          <td width="120">Latitud:</td>
+                          <td width="311"><input name="" type="text" value="<?php echo $result_coordenadas_llegada['lat']; ?>" disabled="disabled"></td>
+                          <td width="122">Latitud:</td>
+                          <td width="170"><input name="latitud_salida" id="latitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lat']; ?>"></td>
                         </tr>
                         <tr>
+                          <td>Longitud:</td>
+                          <td><input name="Input" type="text" value="<?php echo $result_coordenadas_llegada['lon']; ?>" disabled="disabled"></td>
                           <td height="35">Longitud:</td>
                           <td><input name="longitud_salida" id="longitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lon']; ?>"></td>
                         </tr>

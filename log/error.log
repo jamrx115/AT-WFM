@@ -207,3 +207,6 @@ Debug trace:
 2019-02-18 21:54:17 | Error | Error: estimulo invalido "ev_assign" en objeto R-000439 en estado "Asignado".
 2019-02-18 22:06:20 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
 2019-02-18 22:06:20 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 23:27:46 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 23:27:46 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 23:27:46 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
