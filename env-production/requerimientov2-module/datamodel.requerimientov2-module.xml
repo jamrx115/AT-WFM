@@ -148,50 +148,50 @@
                       <rank>70</rank>
                     </item>
 					<item id="municipio">
-                      <rank>70</rank>
-                    </item>
-					 <item id="latitud">
-                      <rank>70</rank>
-                    </item>
-					 <item id="longitud">
-                      <rank>70</rank>
-                    </item>
-					  <item id="direccion">
-                      <rank>70</rank>
-                    </item>
-					<item id="tipo_acceso">
-                      <rank>70</rank>
-                    </item>
-					<item id="tipo_tecnologia">
-                      <rank>70</rank>
-                    </item>
-					<item id="medidas_feeders">
-                      <rank>70</rank>
-                    </item>
-					<item id="num_ot">
                       <rank>80</rank>
                     </item>
-					<item id="num_instal">
+					 <item id="latitud">
                       <rank>90</rank>
                     </item>
-					<item id="nom_cliente">
+					 <item id="longitud">
                       <rank>100</rank>
                     </item>
-					<item id="nom_contacto">
+					  <item id="direccion">
                       <rank>110</rank>
                     </item>
-					<item id="tel_contacto">
+					<item id="tipo_acceso">
                       <rank>120</rank>
                     </item>
-					<item id="fecha_ejecucion">
+					<item id="tipo_tecnologia">
                       <rank>130</rank>
+                    </item>
+					<item id="medidas_feeders">
+                      <rank>140</rank>
+                    </item>
+					<item id="num_ot">
+                      <rank>150</rank>
+                    </item>
+					<item id="num_instal">
+                      <rank>160</rank>
+                    </item>
+					<item id="nom_cliente">
+                      <rank>170</rank>
+                    </item>
+					<item id="nom_contacto">
+                      <rank>180</rank>
+                    </item>
+					<item id="tel_contacto">
+                      <rank>190</rank>
+                    </item>
+					<item id="fecha_ejecucion">
+                      <rank>200</rank>
                     </item>
 					
 					<item id="link_modulo">
-                      <rank>150</rank>
+                      <rank>210</rank>
                     </item>
 					<item id="link_venta">
-                      <rank>160</rank>
+                      <rank>220</rank>
                     </item>
                   </items>
                 </item>
@@ -359,104 +359,104 @@
               <rank>40</rank>
             </item>
 			<item id="departamento">
-			<rank>40</rank>
+			<rank>50</rank>
 			</item>
 			<item id="municipio">
-			  <rank>40</rank>
+			  <rank>60</rank>
 			</item>
 			<item id="latitud">
-			 <rank>40</rank>
+			 <rank>70</rank>
 			</item>
 			 <item id="longitud">
-			 <rank>40</rank>
+			 <rank>80</rank>
 				</item>
 			<item id="direccion">
-			  <rank>50</rank>
+			  <rank>90</rank>
 			</item>
 			<item id="tipo_acceso">
-			  <rank>50</rank>
+			  <rank>100</rank>
 			</item>
 			<item id="tipo_tecnologia">
-			  <rank>50</rank>
+			  <rank>110</rank>
 			</item>
 			<item id="medidas_feeders">
-			  <rank>50</rank>
+			  <rank>120</rank>
 			</item>
 			<item id="num_ot">
-		   <rank>50</rank>
+		   <rank>130</rank>
 			</item>
 			<item id="num_instal">
-			  <rank>50</rank>
+			  <rank>140</rank>
 			</item>
 			<item id="nom_cliente">
-			  <rank>50</rank>
+			  <rank>150</rank>
 			</item>
 			<item id="nom_contacto">
-			  <rank>50</rank>
+			  <rank>160</rank>
 			</item>
 			<item id="tel_contacto">
-			  <rank>50</rank>
+			  <rank>170</rank>
 			</item>
 			<item id="fecha_ejecucion">
-			  <rank>50</rank>
+			  <rank>180</rank>
 			</item>
 			
             <item id="start_date">
-              <rank>50</rank>
-            </item>
-            <item id="resolution_date">
-              <rank>70</rank>
-            </item>
-            <item id="close_date">
-              <rank>80</rank>
-            </item>
-            <item id="status">
-              <rank>90</rank>
-            </item>
-            <item id="caller_id">
-              <rank>100</rank>
-            </item>
-            <item id="origin">
-              <rank>110</rank>
-            </item>
-            <item id="request_type">
-              <rank>120</rank>
-            </item>
-            <item id="impact">
-              <rank>130</rank>
-            </item>
-            <item id="urgency">
-              <rank>140</rank>
-            </item>
-            <item id="priority">
-              <rank>150</rank>
-            </item>
-            <item id="service_id">
-              <rank>160</rank>
-            </item>
-            <item id="servicesubcategory_id">
-              <rank>170</rank>
-            </item>
-            <item id="team_id">
-              <rank>180</rank>
-            </item>
-            <item id="agent_id">
               <rank>190</rank>
             </item>
-            <item id="escalation_flag">
+            <item id="resolution_date">
               <rank>200</rank>
             </item>
-            <item id="resolution_code">
+            <item id="close_date">
               <rank>210</rank>
             </item>
-            <item id="user_satisfaction">
+            <item id="status">
               <rank>220</rank>
             </item>
-            <item id="sla_tto_passed">
+            <item id="caller_id">
               <rank>230</rank>
             </item>
-            <item id="sla_ttr_passed">
+            <item id="origin">
               <rank>240</rank>
+            </item>
+            <item id="request_type">
+              <rank>250</rank>
+            </item>
+            <item id="impact">
+              <rank>260</rank>
+            </item>
+            <item id="urgency">
+              <rank>270</rank>
+            </item>
+            <item id="priority">
+              <rank>280</rank>
+            </item>
+            <item id="service_id">
+              <rank>290</rank>
+            </item>
+            <item id="servicesubcategory_id">
+              <rank>300</rank>
+            </item>
+            <item id="team_id">
+              <rank>310</rank>
+            </item>
+            <item id="agent_id">
+              <rank>320</rank>
+            </item>
+            <item id="escalation_flag">
+              <rank>330</rank>
+            </item>
+            <item id="resolution_code">
+              <rank>340</rank>
+            </item>
+            <item id="user_satisfaction">
+              <rank>350</rank>
+            </item>
+            <item id="sla_tto_passed">
+              <rank>360</rank>
+            </item>
+            <item id="sla_ttr_passed">
+              <rank>370</rank>
             </item>
           </items>
         </search>
@@ -484,31 +484,31 @@
 			  <rank>70</rank>
 			</item>
 			<item id="tipo_acceso">
-			  <rank>70</rank>
+			  <rank>80</rank>
 			</item>
 			<item id="tipo_tecnologia">
-			  <rank>70</rank>
-			</item>
-			<item id="medidas_feeders">
-			  <rank>70</rank>
-			</item>
-			<item id="num_ot">
-		   <rank>80</rank>
-			</item>
-			<item id="num_instal">
 			  <rank>90</rank>
 			</item>
-			<item id="nom_cliente">
+			<item id="medidas_feeders">
 			  <rank>100</rank>
 			</item>
+			<item id="num_ot">
+		   <rank>110</rank>
+			</item>
+			<item id="num_instal">
+			  <rank>120</rank>
+			</item>
+			<item id="nom_cliente">
+			  <rank>130</rank>
+			</item>
 			<item id="nom_contacto">
-			  <rank>110</rank>
+			  <rank>140</rank>
 			</item>
 			<item id="tel_contacto">
-			  <rank>110</rank>
+			  <rank>150</rank>
 			</item>
 			<item id="fecha_ejecucion">
-			  <rank>120</rank>
+			  <rank>160</rank>
 			</item>
 			
 			

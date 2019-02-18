@@ -22,7 +22,7 @@ function mapa(pos)
 	document.getElementById("latitud_a_" + tendido).value=latitud;
 	document.getElementById("latitud_b_" + tendido).value=longitud;
 	id_orden=document.getElementById("id_orden").value;
-	$.get('/AT-WFM/venta/guarda_fecha.php',{id:id_orden,lat:latitud,lon:longitud},alert(longitud));
+	$.get('/AT-WFM/venta/guarda_fecha.php',{id:id_orden,lat:latitud,lon:longitud},alert("ok"));
 }
 
 function error(errorCode)
