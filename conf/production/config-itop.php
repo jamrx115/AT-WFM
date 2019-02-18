@@ -249,6 +249,7 @@ $MyModules = array(
 		'env-production/requerimiento-module/model.requerimiento-module.php',
 		'env-production/requerimientov2-module/model.requerimientov2-module.php',
 		'env-production/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php',
+		'env-production/coordenadas-module/model.coordenadas-module.php',
 	),
 	'webservices' => array (
 		'webservices/webservices.basic.php',

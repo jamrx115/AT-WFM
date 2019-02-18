@@ -2,7 +2,7 @@ var tendido = 0;
 
 function localize(num)
 {
-	alert('ok 1');
+	
 	tendido = num;
 	
 	if (navigator.geolocation)
@@ -17,14 +17,15 @@ function localize(num)
 
 function mapa(pos)
 {
-	alert('ok');
+	
 	var latitud = pos.coords.latitude;
 	var longitud = pos.coords.longitude;
 	var precision = pos.coords.accuracy;
 	document.getElementById("latitud_a_" + tendido).value=latitud;
 	document.getElementById("latitud_b_" + tendido).value=longitud;
 	id_orden=document.getElementById("id_orden").value;
-	$.get('/AT-WFM/venta/guarda_fecha.php',{id:id_orden,lat:latitud,lon:longitud},alert(longitud));
+	tipo=1;
+	$.get('/AT-WFM/venta/guarda_fecha.php',{id:id_orden,lat:latitud,lon:longitud,tipo:tipo},alert('Los datos de hora y coordenadas fueron registrados'));
 }
 
 function error(errorCode)

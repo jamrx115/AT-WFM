@@ -17,6 +17,7 @@
 	<link   href="css/mystyles.css" rel="stylesheet">
 	<script src="js/myeffects.js"></script>
 	<script src="js/localize.js"></script>
+	<script src="js/localize2.js"></script>
 </head>
  
 <body>
@@ -27,6 +28,12 @@
 		$id_orden = $_GET['idOrden'];
 	   
 		$pdo = Database::connect();
+		
+		$sql_coordenadas = "select tb1.id_orden,lat,lon from fecha_llegada as tb1 inner join (
+select MIN(id_fecha)as id,id_orden from   fecha_llegada where tipo=2
+group by id_orden ) as min_id on tb1.id_fecha=min_id.id
+where tb1.id_orden =" . $id_orden;
+				
 		$sql_portada = "SELECT *
 				FROM portada as p 
 				WHERE p.id_orden = " . $id_orden;
@@ -55,6 +62,9 @@
 						FROM vw_ValidaEstado
 						WHERE id= " . $id_orden;
 		
+		$query_coordenadas =  $pdo->prepare($sql_coordenadas);
+		$query_coordenadas->execute();
+		
 		$query_portada =  $pdo->prepare($sql_portada);
 		$query_portada->execute();
 		
@@ -76,6 +86,9 @@
 		$result_diagramas_a = array();
 		$result_diagramas_b = array();
 		$result_query_diagramas = $query_diagramas->fetch(PDO::FETCH_ASSOC);
+		
+		$result_coordenadas = array();
+		$result_coordenadas = $query_coordenadas->fetch(PDO::FETCH_ASSOC);
 		
 		do {
 			if($result_query_diagramas['nodo'] == 'A') {
@@ -120,6 +133,7 @@
 		$result_portada = $query_portada->fetch(PDO::FETCH_ASSOC);
 		$result_user = $query_user->fetch(PDO::FETCH_ASSOC);
 		$result_status = $query_status->fetch(PDO::FETCH_ASSOC);
+		
 
 		if(empty($result_status)) {
 			header("Location: closedot.html");
@@ -129,7 +143,7 @@
 	
 	<div class="container">
 		<div class="row align-center">
-			<h2><b>ANEXO ORDEN DE TRABAJO Nº <?php echo $result_user['num_ot']; ?></b></h2>
+			<h2><b>ANEXO ORDEN DE TRABAJO Nº <?php echo $result_user['num_ot']; ?></b><input name="id_orden" id="id_orden" type="hidden" value="<?php echo $id_orden ?>"></h2>
 		</div>
 	</div>
 	
@@ -138,12 +152,44 @@
 	<div class="container">
 		<div class="row" style="margin-bottom: 15px;">
 			<p>
-				<ul class="list-none-style">
-					<li>Número de instalación: <b><?php echo $result_user['num_instal']; ?></b></li>
-					<li>Cliente: <b><?php echo $result_user['nom_cliente']; ?></b></li>
-					<li>Fecha de ejecución: <b><?php echo $result_user['fecha_ejecucion'] . " " . $result_user['hora_ejecucion']; ?></b></li>
-					<li>Grupo: <b><?php echo $result_user['team_id_friendlyname']; ?></b></li>
-					<li>Responsable orden: <b><?php echo $result_user['agent_id_friendlyname']; ?></b></li>
+		  <ul class="list-none-style"><li><table width="1210" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="594">
+                <div align="left">
+                  <ul class="list-none-style">
+                    <li>Número de instalación: <b><?php echo $result_user['num_instal']; ?></b></li>
+                    <li>Cliente: <b><?php echo $result_user['nom_cliente']; ?></b></li>
+                    <li>Fecha de ejecución: <b><?php echo $result_user['fecha_ejecucion'] . " " . $result_user['hora_ejecucion']; ?></b></li>
+                    <li>Grupo: <b><?php echo $result_user['team_id_friendlyname']; ?></b></li>
+                    <li>Responsable orden: <b><?php echo $result_user['agent_id_friendlyname']; ?></b></li>
+                  </ul>
+              </div></td>
+              <td width="600"><div align="left">
+                  <ul class="list-none-style">
+                    <li>
+                      <table width="348" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="39" colspan="2">
+                            <div align="left">
+                              <input type="submit" name="Submit" value="Registra coordenadas del sitio" onClick="localize2(1)">
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="61">Latitud:</td>
+                          <td width="287"><input name="latitud_salida" id="latitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lat']; ?>"></td>
+                        </tr>
+                        <tr>
+                          <td height="35">Longitud:</td>
+                          <td><input name="longitud_salida" id="longitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lon']; ?>"></td>
+                        </tr>
+                      </table>
+                    </li>
+                    <li></li>
+                  </ul>
+              </div></td>
+            </tr>
+            </table>
+			  </li>
 				</ul>
 			</p>
 		</div>

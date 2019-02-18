@@ -1,12 +1,13 @@
 var tendido = 0; 
 
-function localize(num)
+function localize2(num)
 {
+	
 	tendido = num;
 	
 	if (navigator.geolocation)
 	{
-		navigator.geolocation.getCurrentPosition(mapa,error);		
+		navigator.geolocation.getCurrentPosition(mapa2,error2);		
 	}
 	else
 	{
@@ -14,19 +15,20 @@ function localize(num)
 	}
 }
 
-function mapa(pos)
+function mapa2(pos)
 {
+	
 	var latitud = pos.coords.latitude;
 	var longitud = pos.coords.longitude;
 	var precision = pos.coords.accuracy;
-	document.getElementById("latitud_a_" + tendido).value=latitud;
-	document.getElementById("latitud_b_" + tendido).value=longitud;
+	document.getElementById("latitud_salida").value=latitud;
+	document.getElementById("longitud_salida").value=longitud;
 	id_orden=document.getElementById("id_orden").value;
 	tipo=2;
-	$.get('/AT-WFM/venta/guarda_fecha.php',{id:id_orden,lat:latitud,lon:longitud,tipo:tipo},alert("ok"));
+	$.get('/AT-WFM/venta/guarda_fecha.php',{id:id_orden,lat:latitud,lon:longitud,tipo:tipo},alert("Los datos de hora y coordenadas fueron registrados"));
 }
 
-function error(errorCode)
+function error2(errorCode)
 {
 	if(errorCode.code == 1)
 		alert("No has permitido buscar tu localizacion")
