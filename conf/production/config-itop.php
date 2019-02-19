@@ -17,7 +17,7 @@ $MySettings = array(
 	//	default: 3
 	'access_mode' => 3,
 
-	'allowed_login_types' => 'form|basic|external',
+	'allowed_login_types' => 'url|form|basic|external',
 
 	// apc_cache.enabled: If set, the APC cache is allowed (the PHP extension must also be active)
 	//	default: true
@@ -58,7 +58,7 @@ $MySettings = array(
 
 	'db_collation' => 'utf8_unicode_ci',
 
-	'db_host' => 'alltic.co',
+	'db_host' => 'localhost',
 
 	'db_name' => 'alltic_causel',
 
@@ -202,6 +202,39 @@ $MyModuleSettings = array(
 		'coverage_oql' => 'SELECT CoverageWindow',
 		'holidays_oql' => 'SELECT Holiday',
 	),
+	'combodo-email-synchro' => array (
+		'debug' => true,
+		'periodicity' => 30,
+		'notify_errors_to' => '',
+		'notify_errors_from' => '',
+		'introductory-patterns' => array (
+		  0 => '/^le .+ a écrit :$/i',
+		  1 => '/^on .+ wrote:$/i',
+		  2 => '|^[0-9]{4}/[0-9]{1,2}/[0-9]{1,2} .+:$|',
+		),
+	),
+	'itop-simple-email-synchro' => array (
+		'protocol' => 'POP3',
+		'mail_server' => 'alltic.co',
+		'port' => 110,
+		'login' => 'jmartinez@alltic.co',
+		'pwd' => 'Jaime1982',
+		'mailbox' => '',
+		'pop3_auth_option' => 'USER',
+		'imap_options' => array (
+		  0 => 'imap',
+		),
+		'debug' => true,
+		'create_only' => false,
+		'exclude_attachment_types' => array (
+		  0 => 'application/exe',
+		),
+		'ticket_class' => 'UserRequest',
+		'default_values' => array (
+		),
+		'parts_order' => 'text/plain,text/html',
+		'title_pattern' => '/R-([0-9]+)/',
+	),
 );
 
 /**
@@ -229,6 +262,7 @@ $MyModules = array(
 	'business' => array (
 		'env-production/authent-external/model.authent-external.php',
 		'env-production/authent-local/model.authent-local.php',
+		'env-production/combodo-email-synchro/model.email-synchro.php',
 		'env-production/itop-attachments/model.itop-attachments.php',
 		'env-production/itop-attachments/main.attachments.php',
 		'env-production/itop-backup/main.itop-backup.php',
@@ -236,6 +270,7 @@ $MyModules = array(
 		'env-production/itop-config-mgmt/main.itop-config-mgmt.php',
 		'env-production/itop-config/main.itop-config.php',
 		'env-production/itop-profiles-itil/model.itop-profiles-itil.php',
+		'env-production/itop-simple-mail-synchro/model.itop-simple-email-synchro.php',
 		'env-production/itop-sla-computation/main.itop-sla-computation.php',
 		'env-production/itop-tickets/main.itop-tickets.php',
 		'env-production/itop-tickets/model.itop-tickets.php',

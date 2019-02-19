@@ -684,3 +684,193 @@ Ok.
 2019-02-18 21:53:23 - Error - Error: Error: estimulo invalido "ev_assign" en objeto R-000439 en estado "Asignado"..
 2019-02-18 21:53:28 - Error - Error: Error: estimulo invalido "ev_assign" en objeto R-000439 en estado "Asignado"..
 2019-02-18 21:54:16 - Error - Error: Error: estimulo invalido "ev_assign" en objeto R-000439 en estado "Asignado"..
+2019-02-19 17:42:29 - Error - <b>Error:</b> the configuration file 'D:\servidor\htdocs\AT-WFM/conf/production/config-itop.php' already exists and cannot be overwritten.
+2019-02-19 17:42:56 - Info - CheckPHPVersion
+2019-02-19 17:42:56 - Info - php.ini file(s): 'D:\servidor\php\php.ini'
+2019-02-19 17:42:56 - Info - Temporary directory for files upload (D:\servidor\tmp) is writable.
+2019-02-19 17:42:56 - Info - upload_max_filesize: 100M
+2019-02-19 17:42:56 - Info - post_max_size: 100M
+2019-02-19 17:42:56 - Info - max_file_uploads: 20
+2019-02-19 17:42:56 - Info - memory_limit is 268435456, ok.
+2019-02-19 17:42:56 - Info - session.save_path is: 'D:\servidor\tmp'.
+2019-02-19 17:42:56 - Warning - Missing optional PHP extension: ldap. LDAP authentication will be disabled.
+2019-02-19 17:42:56 - Warning - post_max_size (100M) in php.ini should be strictly greater than upload_max_filesize (100M) otherwise you cannot upload files of the maximum size.
+2019-02-19 17:42:56 - Ok - The current PHP Version (5.6.19) is greater than the minimum version required to run iTop, which is (5.3.0)
+2019-02-19 17:42:56 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2019-02-19 17:42:56 - Ok - Optional PHP extension(s): gd, mcrypt.
+2019-02-19 17:42:56 - Ok - Loaded php.ini files: D:\servidor\php\php.ini
+2019-02-19 17:42:56 - Ok - The value for session.save_path (D:\servidor\tmp) is writable for the web server.
+2019-02-19 17:43:00 - Info - CheckBackupPrerequisites
+2019-02-19 17:43:00 - Info - PHP functions disabled: 
+2019-02-19 17:43:00 - Info - mysqldump -V said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-19 17:43:00 - Info - mysqldump -V said: operable program or batch file.
+2019-02-19 17:43:03 - Info - operation 'async_action', peak memory usage. 5474832
+2019-02-19 17:45:03 - Info - CheckPHPVersion
+2019-02-19 17:45:03 - Info - php.ini file(s): 'D:\servidor\php\php.ini'
+2019-02-19 17:45:03 - Info - Temporary directory for files upload (D:\servidor\tmp) is writable.
+2019-02-19 17:45:03 - Info - upload_max_filesize: 100M
+2019-02-19 17:45:03 - Info - post_max_size: 100M
+2019-02-19 17:45:03 - Info - max_file_uploads: 20
+2019-02-19 17:45:03 - Info - memory_limit is 268435456, ok.
+2019-02-19 17:45:03 - Info - session.save_path is: 'D:\servidor\tmp'.
+2019-02-19 17:45:03 - Warning - Missing optional PHP extension: ldap. LDAP authentication will be disabled.
+2019-02-19 17:45:03 - Warning - post_max_size (100M) in php.ini should be strictly greater than upload_max_filesize (100M) otherwise you cannot upload files of the maximum size.
+2019-02-19 17:45:03 - Ok - The current PHP Version (5.6.19) is greater than the minimum version required to run iTop, which is (5.3.0)
+2019-02-19 17:45:03 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2019-02-19 17:45:03 - Ok - Optional PHP extension(s): gd, mcrypt.
+2019-02-19 17:45:03 - Ok - Loaded php.ini files: D:\servidor\php\php.ini
+2019-02-19 17:45:03 - Ok - The value for session.save_path (D:\servidor\tmp) is writable for the web server.
+2019-02-19 17:45:06 - Info - CheckBackupPrerequisites
+2019-02-19 17:45:06 - Info - PHP functions disabled: 
+2019-02-19 17:45:06 - Info - mysqldump -V said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-19 17:45:06 - Info - mysqldump -V said: operable program or batch file.
+2019-02-19 17:45:07 - Info - operation 'async_action', peak memory usage. 5466904
+2019-02-19 17:45:18 - Error - Error: Could not connect to the DB server: host = localhost, user = itop, mysql_error = 1045, mysql_errno = Access denied for user 'itop'@'localhost' (using password: YES).
+2019-02-19 17:48:45 - Info - CheckPHPVersion
+2019-02-19 17:48:45 - Info - php.ini file(s): 'D:\servidor\php\php.ini'
+2019-02-19 17:48:45 - Info - Temporary directory for files upload (D:\servidor\tmp) is writable.
+2019-02-19 17:48:45 - Info - upload_max_filesize: 100M
+2019-02-19 17:48:45 - Info - post_max_size: 100M
+2019-02-19 17:48:45 - Info - max_file_uploads: 20
+2019-02-19 17:48:45 - Info - memory_limit is 268435456, ok.
+2019-02-19 17:48:45 - Info - session.save_path is: 'D:\servidor\tmp'.
+2019-02-19 17:48:45 - Warning - Missing optional PHP extension: ldap. LDAP authentication will be disabled.
+2019-02-19 17:48:45 - Warning - post_max_size (100M) in php.ini should be strictly greater than upload_max_filesize (100M) otherwise you cannot upload files of the maximum size.
+2019-02-19 17:48:45 - Ok - The current PHP Version (5.6.19) is greater than the minimum version required to run iTop, which is (5.3.0)
+2019-02-19 17:48:45 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2019-02-19 17:48:45 - Ok - Optional PHP extension(s): gd, mcrypt.
+2019-02-19 17:48:45 - Ok - Loaded php.ini files: D:\servidor\php\php.ini
+2019-02-19 17:48:45 - Ok - The value for session.save_path (D:\servidor\tmp) is writable for the web server.
+2019-02-19 17:48:48 - Info - CheckBackupPrerequisites
+2019-02-19 17:48:48 - Info - PHP functions disabled: 
+2019-02-19 17:48:48 - Info - mysqldump -V said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-19 17:48:48 - Info - mysqldump -V said: operable program or batch file.
+2019-02-19 17:48:48 - Info - operation 'async_action', peak memory usage. 5486880
+2019-02-19 17:48:54 - Info - GetApplicationVersion returns: product_name: iTop, product_version: 2.2.1.2658
+2019-02-19 17:49:06 - Info - CheckGraphviz
+2019-02-19 17:49:06 - Info - PHP functions disabled: 
+2019-02-19 17:49:06 - Info - C:\Program Files (x86)\Graphviz 2.28\bin\dot.exe -V said: The system cannot find the path specified.
+2019-02-19 17:49:06 - Info - operation 'async_action', peak memory usage. 5463744
+2019-02-19 17:49:48 - Info - ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>2.2.0</datamodel_version>
+  <previous_configuration_file>D:\servidor\htdocs\AT-WFM//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>localhost</server>
+    <user>itop</user>
+    <pwd>**removed**</pwd>
+    <name>alltic_causel</name>
+    <prefix></prefix>
+  </database>
+  <url>http://127.0.0.1:8081/AT-WFM/</url>
+  <graphviz_path>C:\Program Files (x86)\Graphviz 2.28\bin\dot.exe</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-external</item>
+    <item>authent-local</item>
+    <item>combodo-email-synchro</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-tickets</item>
+    <item>itop-welcome-itil</item>
+    <item>combodo-sla-computation</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-service-mgmt-provider</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-simple-email-synchro</item>
+    <item>Portal-module</item>
+    <item>Requerimiento-module</item>
+    <item>Requerimientov2-module</item>
+    <item>combodo-coverage-windows-computation</item>
+    <item>coordenadas-module</item>
+  </selected_modules>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+</installation>
+
+
+2019-02-19 17:49:48 - Info - operation 'async_action', peak memory usage. 5479640
+2019-02-19 17:49:48 - Info - operation 'async_action', peak memory usage. 5465920
+2019-02-19 17:49:49 - Info - Compiling data model.
+2019-02-19 17:49:54 - Info - Data model successfully compiled to 'D:\servidor\htdocs\AT-WFM/env-production'.
+2019-02-19 17:49:54 - Info - operation 'async_action', peak memory usage. 10365680
+2019-02-19 17:49:55 - Info - Update Database Schema for environment 'production'.
+2019-02-19 17:49:55 - Info - MetaModel::Startup (ModelOnly = 1)
+2019-02-19 17:49:55 - Info - Renaming 'priv_internalUser' into 'priv_internaluser' (lowercase)
+2019-02-19 17:49:57 - Info - Cleanup of 'priv_change' to remove orphan records
+2019-02-19 17:49:57 - Info - There is a total of 2793 records in priv_change.
+2019-02-19 17:49:57 - Info - There are 2 useless records in priv_change (0.07%)
+2019-02-19 17:49:57 - Info - Removing the orphan records...
+2019-02-19 17:49:57 - Info - Cleanup completed successfully.
+2019-02-19 17:49:57 - Info - Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:49:57 - Info - Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:49:58 - Info - Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected
+2019-02-19 17:49:58 - Info - Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected
+2019-02-19 17:49:58 - Info - Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected
+2019-02-19 17:49:58 - Info - Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected
+2019-02-19 17:49:58 - Info - Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected
+2019-02-19 17:49:58 - Info - Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected
+2019-02-19 17:49:58 - Info - Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected
+2019-02-19 17:49:58 - Info - Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected
+2019-02-19 17:49:58 - Info - Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:49:58 - Info - Calling Module Handler: ServiceMgmtProviderInstaller::BeforeDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:49:58 - Info - Creating the structure in ''.
+2019-02-19 17:50:01 - Info - 1.079s - query: CREATE TABLE `email_replica` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ticket_id` INT(11) DEFAULT 0, `uidl` VARCHAR(255) DEFAULT '', `message_id` VARCHAR(255) DEFAULT '', `message_text` TEXT, `references` TEXT, `thread_index` TEXT, `message_date` DATETIME) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-02-19 17:50:01 - Info - 0.564s - query: CREATE TABLE `priv_trigger_onmailupdate` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-02-19 17:50:01 - Info - 0.068s - query: ALTER TABLE `priv_trigger_onobject` CHANGE `target_class` `target_class` VARCHAR(255) DEFAULT 'ApplicationSolution' 
+2019-02-19 17:50:01 - Info - 0.003s - query: ALTER TABLE `priv_sync_datasource` CHANGE `scope_class` `scope_class` VARCHAR(255) DEFAULT 'ApplicationSolution' 
+2019-02-19 17:50:09 - Ok - Database structure successfully updated.
+2019-02-19 17:50:09 - Ok - Hierchical keys rebuilt: The attribute parent_id from Organization is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'organization'...
+Ok, table 'organization' successfully updated.
+The attribute parent_id from Group is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'group'...
+Ok, table 'group' successfully updated.
+
+2019-02-19 17:50:09 - Ok - Data sources checked: There are no Data Sources in the database.
+Ok.
+
+2019-02-19 17:50:09 - Info - 'priv_change.origin' already initialized, nothing to do.
+2019-02-19 17:50:09 - Info - 'priv_async_task.status' already initialized, nothing to do.
+2019-02-19 17:50:09 - Info - Database Schema Successfully Updated for environment 'production'.
+2019-02-19 17:50:09 - Info - operation 'async_action', peak memory usage. 43562080
+2019-02-19 17:50:09 - Info - After Database Creation
+2019-02-19 17:50:09 - Info - MetaModel::Startup (ModelOnly = 1)
+2019-02-19 17:50:10 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:50:10 - Info - Initializing attachment/item_org_id - null to zero
+2019-02-19 17:50:10 - Info - Initializing attachment/item_org_id - zero to the container
+2019-02-19 17:50:10 - Info - Initializing attachment/item_org_id - 0 records have been adjusted
+2019-02-19 17:50:10 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:50:10 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:50:10 - Info - Calling Module Handler: ServiceMgmtProviderInstaller::AfterDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:50:10 - Info - URP_Profiles::GetPredefinedObjects() returned 12 elements.
+2019-02-19 17:50:10 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:50:10 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:50:10 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:50:10 - Info - Calling Module Handler: ServiceMgmtProviderInstaller::AfterDatabaseSetup(oConfig, 2.2.0, 2.2.0)
+2019-02-19 17:50:10 - Info - operation 'async_action', peak memory usage. 39862728
+2019-02-19 17:50:11 - Info - MetaModel::Startup (ModelOnly = )
+2019-02-19 17:50:11 - Info - starting data load session
+2019-02-19 17:50:11 - Info - ending data load session
+2019-02-19 17:50:11 - Info - operation 'async_action', peak memory usage. 39913088
+2019-02-19 17:50:12 - Info - MetaModel::Startup from D:\servidor\htdocs\AT-WFM//conf/production/config-itop.php (ModelOnly = 1)
+2019-02-19 17:50:19 - Info - operation 'async_action', peak memory usage. 40181688

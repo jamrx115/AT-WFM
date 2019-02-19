@@ -1219,6 +1219,8 @@ Dict::Add('EN US', "English", "English", array(
 	'config-no-change' => 'No change: the file has been left unchanged.',
 	'config-parse-error' => 'Line %2$d: %1$s.<br/>The file has NOT been updated.',
 	'config-current-line' => 'Editing line: %1$s',
+	'Class:TriggerOnMailUpdate' => 'Trigger (when updated by mail)',
+	'Class:TriggerOnMailUpdate+' => 'Trigger on a end-user\'s update by email',
 	'Class:Ticket' => 'Ticket',
 	'Class:Ticket+' => '',
 	'Class:Ticket/Attribute:ref' => 'Ref',

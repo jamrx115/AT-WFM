@@ -1242,6 +1242,8 @@ Dict::Add('FR FR', "French", "Français", array(
 	'config-current-line' => 'Ligne en édition : %1$s',
 	'config-apply' => 'Enregistrer',
 	'config-cancel' => 'Annuler (restaurer)',
+	'Class:TriggerOnMailUpdate' => 'Déclencheur sur mise à jour par mail',
+	'Class:TriggerOnMailUpdate+' => '',
 	'Class:Ticket' => 'Ticket',
 	'Class:Ticket+' => '',
 	'Class:Ticket/Attribute:ref' => 'Référence',
