@@ -9,7 +9,9 @@
 	$lon = $_GET['lon'];
 	
 	$tipo = $_GET['tipo'];
+	
+	$diferencia = $_GET['dif_bd'];
 
-	$valores = guardaFecha($id_orden,$lat,$lon,$tipo);
+	$valores = guardaFecha($id_orden,$lat,$lon,$tipo,$diferencia);
 
 ?>

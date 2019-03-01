@@ -18,6 +18,12 @@
 	<script src="js/myeffects.js"></script>
 	<script src="js/localize.js"></script>
 	<script src="js/localize2.js"></script>
+	<style type="text/css">
+	<!--
+		.Alerta {color: #FF0000}
+		.Ok {color: #00CC00; }
+	-->
+	</style>
 </head>
  
 <body>
@@ -29,7 +35,7 @@
 	   
 		$pdo = Database::connect();
 		
-		$sql_coordenadas = "select tb1.id_orden,lat,lon from fecha_llegada as tb1 inner join (
+		$sql_coordenadas = "select tb1.id_orden,lat,lon,diferencia from fecha_llegada as tb1 inner join (
 select MIN(id_fecha)as id,id_orden from   fecha_llegada where tipo=2
 group by id_orden ) as min_id on tb1.id_fecha=min_id.id
 where tb1.id_orden =" . $id_orden;
@@ -182,19 +188,36 @@ where tb1.id_orden =" . $id_orden;
                         
                         <tr>
                           <td colspan="2">Coordenadas de llegada</td>
-                          <td colspan="2"><input type="submit" name="Submit" value="Registra coordenadas del sitio" onClick="localize2(1)"></td>
+                          <td colspan="3"><input type="submit" name="Submit" value="Registro de finalización de trabajo" onClick="localize2(1)"></td>
                         </tr>
                         <tr>
-                          <td width="120">Latitud:</td>
-                          <td width="311"><input name="" type="text" value="<?php echo $result_coordenadas_llegada['lat']; ?>" disabled="disabled"></td>
-                          <td width="122">Latitud:</td>
-                          <td width="170"><input name="latitud_salida" id="latitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lat']; ?>"></td>
+                          <td width="200">Latitud:</td>
+                          <td width="207"><input name="latitud_llegada" id="latitud_llegada" type="text" value="<?php echo $result_coordenadas_llegada['lat']; ?>" disabled="disabled"></td>
+                          <td width="76">Latitud:</td>
+                          <td colspan="2" rowspan="2"><input name="latitud_salida" id="latitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lat']; ?>">
+                          <input name="longitud_salida" id="longitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lon']; ?>">                            <label></label></td>
                         </tr>
                         <tr>
                           <td>Longitud:</td>
-                          <td><input name="Input" type="text" value="<?php echo $result_coordenadas_llegada['lon']; ?>" disabled="disabled"></td>
+                          <td><input name="longitud_llegada" id="longitud_llegada" type="text" value="<?php echo $result_coordenadas_llegada['lon']; ?>" disabled="disabled"></td>
                           <td height="35">Longitud:</td>
-                          <td><input name="longitud_salida" id="longitud_salida" type="text" disabled="disabled" value="<?php echo $result_coordenadas['lon']; ?>"></td>
+                        </tr>
+                        <tr>
+                          <td height="35" colspan="5"><input name="dif_bd" id="dif_bd" type="hidden" ><?php 
+						  if($result_coordenadas['diferencia']>=20)
+						  {
+						    echo "<div><p><span id='diferenciaMentros' class='Alerta'>"; 	
+						  }
+						  else
+						  {
+						    echo "<div><p><span id='diferenciaMentros' class='Ok'>";
+						  }
+						  echo "Diferencia: ";
+						  echo $result_coordenadas['diferencia']; 
+						   echo " Metros";
+						  echo "</span></p></div>";						  
+						  ?>
+                          </td>
                         </tr>
                       </table>
                     </li>

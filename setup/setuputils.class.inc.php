@@ -85,7 +85,7 @@ class SetupUtils
 		$aWritableDirsErrors = self::CheckWritableDirs(array('log', 'env-production', 'conf', 'data'));
 		$aResult = array_merge($aResult, $aWritableDirsErrors);
 		
-		$aMandatoryExtensions = array('mysqli', 'iconv', 'simplexml', 'soap', 'hash', 'json', 'session', 'pcre', 'dom', 'zip');
+		$aMandatoryExtensions = array('mysqli', 'iconv', 'simplexml', 'hash', 'json', 'session', 'pcre', 'dom', 'zip');
 		$aOptionalExtensions = array('mcrypt' => 'Strong encryption will not be used.',
 									 'ldap' => 'LDAP authentication will be disabled.',
 									 'gd' => 'PDF export of impact/dependency diagrams will be disabled');

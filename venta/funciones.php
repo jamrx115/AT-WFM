@@ -222,13 +222,13 @@ function EliminaCostos($id_venta){
 
 }
 
-function guardaFecha($id_orden,$lat,$lon,$tipo)
+function guardaFecha($id_orden,$lat,$lon,$tipo,$diferencia)
 
 {
 
     $conexion = conectaBaseDatos();
 
-	$sentencia = $conexion->prepare("INSERT INTO fecha_llegada (id_orden,lat,lon,tipo) VALUES (?,?,?,?)");
+	$sentencia = $conexion->prepare("INSERT INTO fecha_llegada (id_orden,lat,lon,tipo,diferencia) VALUES (?,?,?,?,?)");
 
 	$sentencia->bindParam(1, $id_orden);
 	
@@ -237,6 +237,8 @@ function guardaFecha($id_orden,$lat,$lon,$tipo)
 	$sentencia->bindParam(3, $lon);
 	
 	$sentencia->bindParam(4, $tipo);
+	
+	$sentencia->bindParam(5, $diferencia);
 
 	$resultado=$sentencia->execute();
 

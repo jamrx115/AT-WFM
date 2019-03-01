@@ -874,3 +874,23 @@ Ok.
 2019-02-19 17:50:11 - Info - operation 'async_action', peak memory usage. 39913088
 2019-02-19 17:50:12 - Info - MetaModel::Startup from D:\servidor\htdocs\AT-WFM//conf/production/config-itop.php (ModelOnly = 1)
 2019-02-19 17:50:19 - Info - operation 'async_action', peak memory usage. 40181688
+2019-02-19 21:25:32 - Info - CheckPHPVersion
+2019-02-19 21:25:32 - Info - php.ini file(s): 'D:\servidor\php\php.ini'
+2019-02-19 21:25:32 - Info - Temporary directory for files upload (D:\servidor\tmp) is writable.
+2019-02-19 21:25:32 - Info - upload_max_filesize: 100M
+2019-02-19 21:25:32 - Info - post_max_size: 100M
+2019-02-19 21:25:32 - Info - max_file_uploads: 20
+2019-02-19 21:25:32 - Info - memory_limit is 268435456, ok.
+2019-02-19 21:25:32 - Info - session.save_path is: 'D:\servidor\tmp'.
+2019-02-19 21:25:32 - Warning - Missing optional PHP extension: ldap. LDAP authentication will be disabled.
+2019-02-19 21:25:32 - Warning - post_max_size (100M) in php.ini should be strictly greater than upload_max_filesize (100M) otherwise you cannot upload files of the maximum size.
+2019-02-19 21:25:32 - Ok - The current PHP Version (5.6.19) is greater than the minimum version required to run iTop, which is (5.3.0)
+2019-02-19 21:25:32 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2019-02-19 21:25:32 - Ok - Optional PHP extension(s): gd, mcrypt.
+2019-02-19 21:25:32 - Ok - Loaded php.ini files: D:\servidor\php\php.ini
+2019-02-19 21:25:32 - Ok - The value for session.save_path (D:\servidor\tmp) is writable for the web server.
+2019-02-19 21:25:34 - Info - CheckBackupPrerequisites
+2019-02-19 21:25:34 - Info - PHP functions disabled: 
+2019-02-19 21:25:34 - Info - mysqldump -V said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-19 21:25:34 - Info - mysqldump -V said: operable program or batch file.
+2019-02-19 21:25:34 - Info - operation 'async_action', peak memory usage. 5486880
