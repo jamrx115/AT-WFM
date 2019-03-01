@@ -204,7 +204,7 @@ where tb1.id_orden =" . $id_orden;
                         </tr>
                         <tr>
                           <td height="35" colspan="5"><input name="dif_bd" id="dif_bd" type="hidden" ><?php 
-						  if($result_coordenadas['diferencia']>=20)
+						  if($result_coordenadas['diferencia']>=2)
 						  {
 						    echo "<div><p><span id='diferenciaMentros' class='Alerta'>"; 	
 						  }
